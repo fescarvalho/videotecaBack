@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "src/server.js",
-    "start": "node src/server.js",
-    "dev": "nodemon server.js"
+    "start": "node src/server.js"
   },
   "engines": {
     "node": "16.16.0",
