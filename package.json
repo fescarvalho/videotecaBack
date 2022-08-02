@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "heroku-postbuild": "npm run build",
-    "start": "server.js",
-    "build": "server.js"
+    "start": "nodemon server.js",
+    "build": "./server.js"
   },
   "engines": {
     "node": "16.16.0"
